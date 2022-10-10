@@ -1,0 +1,10 @@
+mongock:
+  migration-scan-package:
+    - com.shoalter.mongock.changelogs
+  track-ignored: true
+  transaction-enabled: true
+  runner-type: InitializingBean
+  mongo-db:
+    read-concern: local
+  start-system-version: 0
+  end-system-version: 0
